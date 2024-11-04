@@ -43,20 +43,34 @@ A minimal template for starting a Symfony 7 project, designed for a streamlined 
 
 ```
 your-project-name/
+├── .vscode/
+├── assets/
+│   └── styles/
+├── bin/
 ├── config/
+│   ├── packages/
+│   └── routes/
+├── docs/
+│   └── makefile/
+├── frankenphp/
+│   └── conf.d/
 ├── public/
 ├── src/
-│   ├── Controller/
-│   ├── Entity/
-│   └── Repository/
+│   └── Controller/
 ├── templates/
 ├── tests/
 ├── var/
 ├── vendor/
 ├── .env
+├── compose.override.yaml
+├── compose.prod.yaml
 ├── compose.yaml
-├── compose.local.yaml
-└── README.md
+├── Dockerfile
+├── importmap.php
+├── Makefile
+├── README.md
+├── symfony-x.code-workspace
+└── symfony.lock
 ```
 
 ## Contributing
