@@ -6,8 +6,8 @@
 
 # Parameters
 SHELL         = sh
-PROJECT       = aiup
-GIT_AUTHOR    = COil
+PROJECT       = symfony-x # @todo: UPDATE THIS FOR YOUR PROJECT
+GIT_AUTHOR    = xormania
 HTTP_PORT     = 8000
 
 # Executables
