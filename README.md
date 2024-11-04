@@ -42,7 +42,7 @@ A minimal template for starting a Symfony 7 project, designed for a streamlined 
 ## Folder Structure
 
 ```
-your-project-name/
+symfony-x/
 ├── .vscode/
 ├── assets/
 │   └── styles/
