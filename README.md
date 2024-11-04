@@ -14,7 +14,7 @@ A minimal template for starting a Symfony 7 project, designed for a streamlined 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/symfony7-blank-template.git your-project-name
+   git clone https://https://github.com/xormania/symfony-x.git your-project-name
    cd your-project-name
    ```
 
@@ -24,28 +24,12 @@ A minimal template for starting a Symfony 7 project, designed for a streamlined 
    composer install
    ```
 
-3. **Set Up Environment Variables**
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   Update `.env` with your database credentials and other configuration details.
-
 4. **Build and Start Docker Containers**
 
    Make sure to use `compose.local.yaml` and `compose.yaml` for Docker configuration.
 
    ```bash
    docker-compose -f compose.yaml -f compose.local.yaml up -d
-   ```
-
-5. **Set Up Database**
-
-   Run migrations to prepare your database.
-
-   ```bash
-   docker-compose exec php php bin/console doctrine:migrations:migrate
    ```
 
 ## Usage
