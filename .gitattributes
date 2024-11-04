@@ -1,0 +1,29 @@
+* text=auto eol=lf
+
+*.conf text eol=lf
+*.html text eol=lf
+*.ini text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.php text eol=lf
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+bin/console text eol=lf
+composer.lock text eol=lf merge=ours
+
+*.ico binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.tif binary
+*.bmp binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary
+*.mpg binary
+*.avi binary
+*.flc binary
+*.flv binary
+*.blob binary
