@@ -7,7 +7,7 @@
 # Parameters
 SHELL         = sh
 PROJECT       = symfony-x # @todo: UPDATE THIS FOR YOUR PROJECT
-GIT_AUTHOR    = xor
+GIT_AUTHOR    = COil
 HTTP_PORT     = 8000
 
 # Executables
