@@ -26,18 +26,16 @@ A minimal template for starting a Symfony 7 project, designed for a streamlined 
 
 4. **Build and Start Docker Containers**
 
-   Make sure to use `compose.local.yaml` and `compose.yaml` for Docker configuration.
+   Make sure to use `compose.override.yaml` for Development Docker configuration.
+   Make sure to use `compose.prod.yaml` for Production Docker configuration.
 
    ```bash
-   docker-compose -f compose.yaml -f compose.local.yaml up -d
+   docker-compose up -d
    ```
 
-## Usage
+## Documentation
 
-- **Controllers**: Create new controllers in `src/Controller`.
-- **Routes**: Configure routes using annotations or YAML files.
-- **Entities**: Define your entities in `src/Entity`.
-- **Templates**: Use Twig templates in the `templates/` directory.
+   Documentation can be found [here](docs/documents.md). 
 
 ## Folder Structure
 
@@ -72,6 +70,14 @@ symfony-x/
 ├── symfony-x.code-workspace
 └── symfony.lock
 ```
+
+## Plans
+
+- **Web App version**: A ready to go web app template with dashboard.
+- **AWS**: AWS integration. S3, Cognito, DynamoDB, Bedrock, 
+- **Go**: Integrating Symfony with Go - maybe more later
+- **AI**: Integration with various AI. Possible edge LLM embedded in Server and available to php via bindings with Go functions. 
+
 
 ## Contributing
 

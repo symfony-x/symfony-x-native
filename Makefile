@@ -39,7 +39,7 @@ CERTBOT       = certbot
 
 # Misc
 .DEFAULT_GOAL = help
-.PHONY        : # Not needed here, but you can put your all your targets to be sure
+.PHONY        : # Not needed here, but you can put all your targets to be sure
                 # there is no name conflict between your files and your targets.
 
 ## —— 🐝 The Strangebuzz Symfony Makefile 🐝 ———————————————————————————————————
