@@ -26,9 +26,13 @@ This documentation hub contains all essential guides for working with the projec
 
 ## Guides and References
 
-### [Makefile Guide](Makefile.md)
+### [Makefile Guide](makefile/guide.md)
 
-A guide on using the Makefile for various tasks like building, testing, and deployment.
+Info on the Makefile
+[Makefile Guide](makefile/guide.md)
+[About Makefile](makefile/about.md)
+[Cheatsheet](makefile/cheatsheet.md)
+
 
 ### [Franken-PHP](FrankenPHP.md)
 
