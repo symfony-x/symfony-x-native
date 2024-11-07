@@ -1,4 +1,4 @@
-# CLI Cheat Sheet for the Strangebuzz Symfony Makefile
+# CLI Cheat Sheet for the Makefile
 
 This cheat sheet provides a quick reference to the Makefile commands available in your project. Use `make <target>` to execute a specific command.
 

@@ -28,9 +28,9 @@ This documentation hub contains all essential guides for working with the projec
 
 ### [Makefile Guide](makefile/guide.md)
 
-Info on the Makefile
-[Makefile Guide](makefile/guide.md)
-[About Makefile](makefile/about.md)
+Includes a 
+[Makefile Guide](makefile/guide.md),
+[About Makefile](makefile/about.md), and a 
 [Cheatsheet](makefile/cheatsheet.md)
 
 
