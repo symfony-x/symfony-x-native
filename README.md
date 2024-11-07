@@ -1,6 +1,6 @@
 # Symfony-X
 
-**PHP** can get **down** and **dirty**. And sometimes... you have to do it ***symfony style***.
+**PHP** can get **down** and **dirty**. And *sometimes* **...** you have to do it ***symfony style***.
 
 ```php
   use Symfony\Component\Console\Style\SymfonyStyle;
