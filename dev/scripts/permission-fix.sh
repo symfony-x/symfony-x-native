@@ -14,7 +14,7 @@ USER="www-user"
 GROUP="www-user"
 
 # Directory whose permissions will be changed
-TARGET_DIR="../vendor"
+TARGET_DIR="../../vendor"
 
 # ------------------------- Functions -----------------------------
 
