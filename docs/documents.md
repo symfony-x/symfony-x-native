@@ -8,15 +8,15 @@ Welcome to the Project Documentation! This section provides links to detailed gu
 
 - [Introduction](#introduction)
 - [Guides and References](#guides-and-references)
-  - [Makefile Guide](Makefile.md)
-  - [Franken-PHP](FrankenPHP.md)
-  - [Symfony Framework](Symfony.md)
-  - [Docker Setup and Configuration](Docker.md)
-  - [Troubleshooting](Troubleshooting.md)
+  - [Makefile Guide](makefile/guide.md)
+  - [Franken-PHP](franken-php/guide.md)
+  - [Symfony Framework](symfony/guide.md)
+  - [Docker Setup and Configuration](docker/guide.md)
+  - [Troubleshooting](troubleshooting.md)
 - [Additional Resources](#additional-resources)
-  - [FAQs](FAQs.md)
-  - [Contributing Guidelines](Contributing.md)
-  - [License Information](License.md)
+  - [FAQs](faq.md)
+  - [Contributing Guidelines](contributing.md)
+  - [License Information](LICENSE.md)
 
 ---
 
@@ -34,36 +34,32 @@ Includes a
 [Cheatsheet](makefile/cheatsheet.md)
 
 
-### [Franken-PHP](FrankenPHP.md)
+### [Franken-PHP](franken-php/guide.md)
 
 Documentation on integrating and using Franken-PHP within the project.
 
-### [Symfony Framework](Symfony.md)
+### [Symfony Framework](symfony/guide.md)
 
 Detailed reference and best practices for using Symfony in this project.
 
-### [Docker Setup and Configuration](Docker.md)
+### [Docker Setup and Configuration](docker/guide.md)
 
 Instructions on setting up Docker for development and production environments.
 
-### [Troubleshooting](Troubleshooting.md)
+### [Troubleshooting](troubleshooting.md)
 
 A guide to troubleshooting common issues you may encounter during setup and deployment.
 
 ## Additional Resources
 
-### [FAQs](FAQs.md)
+### [FAQs](faq.md)
 
-Frequently asked questions and answers related to the project.
+Frequently Asked Questions and answers related to Symfony-X.
 
-### [Contributing Guidelines](Contributing.md)
+### [Contributing Guidelines](contributing.md)
 
 Guidelines for contributing to the project.
 
-### [License Information](License.md)
+### [License Information](LICENSE.md)
 
-Details about the project license.
-
----
-
-Each document contains in-depth information, commands, and examples to help you get the most out of the project. For further assistance, refer to the specific sections above.
+License Details
