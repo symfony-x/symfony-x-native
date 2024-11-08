@@ -9,7 +9,7 @@
 ```
 Symfony-X uses a very fast web server (FrankenPHP), AssetMapper, and Tailwind. No yarn, no npm, and no webpackencore.
 
-Symfony-X deployments can be configured (local dev, local production, binary executable, AWS).
+Symfony-X deployments can be configured (local dev, local production, standalone binary executable, AWS).
 
 
 ## Requirements
