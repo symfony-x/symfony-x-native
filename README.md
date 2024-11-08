@@ -1,6 +1,12 @@
 # Symfony-X
 
-RAPID Symfony 7 Modern Web Architecture Development and Deployment.
+Symfony 7 RAPID Project Development and Deployment / Distribution.
+
+## Current Status
+
+NOT ready yet, as of 8 Nov 2024. 
+
+Check back soon, any ideas are welcome!
 
 ## Background
 
@@ -17,16 +23,17 @@ Symfony-X is about simplicity, performance, and scalability.
 
 Symfony-X provides a set of fast, simple, and flexible Symfony 7+ templates for rapid project development using the latest Symfony design approaches.
 
-Symfony-X uses a very fast web server (FrankenPHP), AssetMapper, and Tailwind. No yarn, no npm, and no webpackencore.
+Symfony-X uses a fast web server (FrankenPHP), AssetMapper, and Tailwind. No yarn, no npm, and no webpackencore.
 
 Symfony-X deployments can be configured (local dev, local production, standalone binary executable, Amazon Web Services).
 
-Symfony-X focuses on Artificial Intelligence progress and direction demands. This includes, but is not limited to: API consumption and production, LangChain-ish PHP, and maybe edge AI in application memory space (via Go).
+Symfony-X is focused on Artificial Intelligence progress and direction demands. This includes, but is not limited to: API consumption and production, LangChain-ish PHP, and maybe edge AI in application memory space (via Go).
 
 
 ## Requirements
 
-- **Docker & Docker Compose**: 
+- **Git**: You got to git it to get it. 
+- **Docker & Docker Compose**: Containerized environments.
 
 ## Installation
 
