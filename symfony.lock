@@ -1,4 +1,7 @@
 {
+    "knplabs/knp-time-bundle": {
+        "version": "v2.4.0"
+    },
     "symfony/asset-mapper": {
         "version": "7.1",
         "recipe": {
@@ -115,6 +118,19 @@
             "assets/bootstrap.js",
             "assets/controllers.json",
             "assets/controllers/hello_controller.js"
+        ]
+    },
+    "symfony/translation": {
+        "version": "7.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "6.3",
+            "ref": "e28e27f53663cc34f0be2837aba18e3a1bef8e7b"
+        },
+        "files": [
+            "config/packages/translation.yaml",
+            "translations/.gitignore"
         ]
     },
     "symfony/twig-bundle": {
