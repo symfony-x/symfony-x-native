@@ -6,7 +6,7 @@ Symfony 7 RAPID Project Development and Deployment / Distribution.
 
 NOT ready yet, as of 8 Nov 2024. 
 
-Check back soon, any ideas are welcome!
+Check back soon!
 
 ## Background
 
