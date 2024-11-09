@@ -19,3 +19,14 @@ Symfony-X Quick Reference (QR) contains common CLI used during the course of Sym
    ```
 
 
+## Stimulus
+
+Lazy loading stimulus controllers
+
+   ```js
+   // imports
+   /* stimulusFetch: 'lazy' */
+   // code
+   ```
+
+
