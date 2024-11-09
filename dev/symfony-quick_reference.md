@@ -7,7 +7,7 @@ Symfony-X Quick Reference (QR) contains common CLI used during the course of Sym
 #### 3rd Party npm libraries import into importmap
 
    ```bash
-   php bin/console importmap:require lodash
+   php bin/console importmap:require NPM_LIBRARY
    ```
    
    ```bash
@@ -15,7 +15,7 @@ Symfony-X Quick Reference (QR) contains common CLI used during the course of Sym
    ```
    
    ```bash
-   php bin/console importmap:require lodash --download
+   php bin/console importmap:require NPM_LIBRARY --download
    ```
 
 
