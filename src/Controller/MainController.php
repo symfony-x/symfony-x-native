@@ -10,7 +10,7 @@ class MainController extends BaseController
     #[Route('/', name: 'web_home')]
     public function home(): Response
     {
-        return $this->render('default/complete.html.twig');
+        return $this->render('default/welcome.html.twig');
     }
 
 }

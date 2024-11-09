@@ -1,0 +1,68 @@
+:root {
+    /* Light theme variables */
+    --bs-body-bg: #ffffff;
+    --bs-body-color: #24292e;
+    --bs-navbar-bg: #f6f8fa;
+    --bs-footer-bg: #f6f8fa;
+    --bs-link-color: #0969da;
+    --bs-navbar-text-color: #24292e;
+    --bs-navbar-toggler-border-color: #212529;
+    --bs-nav-link-active-color: #0d6efd;
+    /* Bootstrap's default blue */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark theme variables similar to GitHub */
+        --bs-body-bg: #0d1117;
+        --bs-body-color: #c9d1d9;
+        --bs-navbar-bg: #161b22;
+        --bs-footer-bg: #161b22;
+        --bs-link-color: #58a6ff;
+        --bs-navbar-text-color: #c9d1d9;
+        --bs-navbar-toggler-border-color: #c9d1d9;
+        --bs-nav-link-active-color: #ffffff;
+        /* White active link color in dark mode */
+    }
+}
+
+body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+.navbar,
+.footer {
+    background-color: var(--bs-navbar-bg);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: var(--bs-navbar-text-color);
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar .nav-link.active {
+    color: var(--bs-nav-link-active-color);
+}
+
+a {
+    color: var(--bs-link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer link styles */
+.footer .nav-link {
+    color: var(--bs-body-color);
+    padding: 0 15px;
+}
+
+.footer .nav-link:hover {
+    text-decoration: underline;
+}

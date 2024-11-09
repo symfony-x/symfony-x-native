@@ -1,6 +1,7 @@
 # Development environment override
 services:
   php:
+    container_name: symfony-x
     build:
       context: .
       target: frankenphp_dev

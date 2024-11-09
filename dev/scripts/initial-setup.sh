@@ -10,7 +10,9 @@
 cd ..
 
 # Tailwind initialization
-php bin/console tailwind:init
+docker exec -it symfony-x php bin/console tailwind:build --watch
+
+docker exec -it php-1 php bin/console tailwind:init
 
 # Migrations
 php bin/console doctrine:migrations:migrate

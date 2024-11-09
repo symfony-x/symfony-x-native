@@ -54,6 +54,9 @@ if [ "$1" = 'frankenphp' ] || [ "$1" = 'php' ] || [ "$1" = 'bin/console' ]; then
 
 	setfacl -R -m u:www-data:rwX -m u:"$(whoami)":rwX var
 	setfacl -dR -m u:www-data:rwX -m u:"$(whoami)":rwX var
+
+	# Start Tailwind CSS build process in the background
+	php bin/console tailwind:build --watch &
 fi
 
 exec docker-php-entrypoint "$@"
