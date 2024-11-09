@@ -15,6 +15,7 @@ return [
     'app' => [
         'path' => './assets/app.js',
         'entrypoint' => true,
+        'preload' => true,
     ],
     '@hotwired/stimulus' => [
         'version' => '3.2.2',
