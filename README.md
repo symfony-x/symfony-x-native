@@ -1,6 +1,6 @@
 # Symfony-X
 
-Symfony 7 RAPID Project Development and Deployment / Distribution.
+Symfony 7 LAST Stack rapid Project Development and Deployment / Distribution.
 
 ## Current Status
 
