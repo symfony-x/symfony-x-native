@@ -15,31 +15,24 @@ return [
     'app' => [
         'path' => './assets/app.js',
         'entrypoint' => true,
-        'preload' => true,
     ],
     '@hotwired/stimulus' => [
         'version' => '3.2.2',
-        'preload' => true,
     ],
     '@symfony/stimulus-bundle' => [
         'path' => './vendor/symfony/stimulus-bundle/assets/dist/loader.js',
-        'preload' => true,
     ],
     '@hotwired/turbo' => [
         'version' => '7.3.0',
-        'preload' => true,
     ],
     'bootstrap' => [
         'version' => '5.3.3',
-        'preload' => true,
     ],
     '@popperjs/core' => [
         'version' => '2.11.8',
-        'preload' => true,
     ],
     'bootstrap/dist/css/bootstrap.min.css' => [
         'version' => '5.3.3',
         'type' => 'css',
-        'preload' => true,
     ],
 ];
