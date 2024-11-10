@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# @todo: move to makefile
+
 # -------------------------------------------------------------------
 # Script Name: initial-setup.sh
 # Description: Run once to set up the local dev environment.

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+# @todo: fix in entrypoint.sh
+
 # -------------------------------------------------------------------
 # Script Name: permission-fix.sh
 # Description: Recursively changes ownership of the ../vendor directory
