@@ -6,8 +6,10 @@ import './bootstrap.js';
  * which should already be in your base.html.twig.
  */
 
-// import './styles/app.css';
-console.log('assets/styles/app.css - over 🎉');
+//import './styles/app.css'; // i hate this line
+
+
+import './vendor/bootstrap/dist/css/bootstrap.min.css';
 import './styles/default.css';
 
 console.log('assets/app.js - check 🎉');
