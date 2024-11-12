@@ -7,10 +7,12 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class MainController extends BaseController
 {
-    #[Route('/', name: 'web_home')]
-    public function home(): Response
+    #[Route('/', name: 'app_home')]
+    public function index(): Response
     {
-        return $this->render('default/welcome.html.twig');
+        // Redirect to the Symfony-X welcome page by default
+        // Change this to redirect to your own routes
+        return $this->redirectToRoute('symfony-x_welcome');
     }
 
 }
