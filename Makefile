@@ -15,11 +15,11 @@ EXEC_PHP      = php
 COMPOSER      = composer
 REDIS         = redis-cli
 GIT           = git
-YARN          = yarn
-NPX           = npx
+
 
 # Alias
-SYMFONY       = $(EXEC_PHP) bin/console
+#SYMFONY       = $(EXEC_PHP) bin/console
+SYMFONY       = docker-compose exec my_php_container $(EXEC_PHP) bin/console
 # if you use Docker you can replace with: "docker-compose exec my_php_container $(EXEC_PHP) bin/console"
 
 # Executables: vendors
@@ -72,7 +72,7 @@ php-set-8-1: ## Set php 8.1 as the current PHP version
 sf: ## List all Symfony commands
 	@$(SYMFONY)
 
-cc: ## Clear the cache. DID YOU CLEAR YOUR CACHE????
+cc: ## Clear the cache. DID YOU CLEAR YOUR CACHE???? DID YOU???? SERIOUSLY?????
 	@$(SYMFONY) c:c
 
 warmup: ## Warmup the cache
@@ -194,10 +194,10 @@ fix-php: ## Fix files with php-cs-fixer
 	@PHP_CS_FIXER_IGNORE_ENV=1 $(PHP_CS_FIXER) fix --allow-risky=yes --config=php-cs-fixer.php
 
 ## —— Deploy & Prod 🚀 —————————————————————————————————————————————————————————
-deploy: ## Full no-downtime deployment with EasyDeploy (with pre-deploy Git hooks)
-	@test -z "`git status --porcelain`"                 # Prevent deploy if there are modified or added files
-	@test -z "`git diff --stat --cached origin/master`" # Prevent deploy if there is something to push on master
-	@$(SYMFONY) deploy -v                               # Deploy with EasyDeploy
+#deploy: ## Full no-downtime deployment with EasyDeploy (with pre-deploy Git hooks)
+#	@test -z "`git status --porcelain`"                 # Prevent deploy if there are modified or added files
+#	@test -z "`git diff --stat --cached origin/master`" # Prevent deploy if there is something to push on master
+#	@$(SYMFONY) deploy -v                               # Deploy with EasyDeploy
 
 # Snippet L196+4 => templates/snippet/code/_128.html.twig
 
@@ -208,21 +208,22 @@ le-renew: ## Renew Let's Encrypt HTTPS certificates
 	@$(CERTBOT) --apache -d strangebuzz.com -d www.strangebuzz.com
 
 ## —— Yarn 🐱 / JavaScript —————————————————————————————————————————————————————
-dev: ## Rebuild assets for the dev env
-	@$(YARN) install --check-files
-	@$(YARN) run encore dev
+## not needed for a LAST stack
+#dev: ## Rebuild assets for the dev env
+#	@$(YARN) install --check-files
+#	@$(YARN) run encore dev
 
-watch: ## Watch files and build assets when needed for the dev env
-	@$(YARN) run encore dev --watch
+#watch: ## Watch files and build assets when needed for the dev env
+#	@$(YARN) run encore dev --watch
 
-encore: ## Build assets for production
-	@$(YARN) run encore production
+#encore: ## Build assets for production
+#	@$(YARN) run encore production
 
-lint-js: ## Lints JS coding standarts
-	@$(NPX) eslint assets/js
+#lint-js: ## Lints JS coding standarts
+#	@$(NPX) eslint assets/js
 
-fix-js: ## Fixes JS files
-	@$(NPX) eslint assets/js --fix
+#fix-js: ## Fixes JS files
+#	@$(NPX) eslint assets/js --fix
 
 ## —— Stats 📜 —————————————————————————————————————————————————————————————————
 stats: ## Commits by the hour for the main author of this project
