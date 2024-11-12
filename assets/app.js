@@ -8,7 +8,6 @@ import './bootstrap.js';
 
 //import './styles/app.css'; // i hate this line
 
-
 import './vendor/bootstrap/dist/css/bootstrap.min.css';
 import './styles/default.css';
 
