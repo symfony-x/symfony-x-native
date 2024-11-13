@@ -2,11 +2,15 @@
 
 Symfony 7 LAST Stack rapid Project Development and Deployment / Distribution.
 
-## Current Status
-
-NOT ready yet, as of 12 Nov 2024. 
+Current Status
+### NOT ready yet
+ETA - a week-ish
+#### As of 13 Nov 2024. 
 
 Check back soon!
+
+## Support Ryan Weaver
+Ryan has Glioblastoma (brain cancer - [Go Fund Me](http://gofund.me/f8e28d5f).) He's a fighter, writer for http://SymfonyCasts.com & proud Symfony core member
 
 ## Background
 
