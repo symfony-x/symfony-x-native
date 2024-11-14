@@ -1,6 +1,6 @@
 # Symfony-X
 
-Symfony 7 LAST Stack rapid Project Development and Deployment / Distribution.
+Symfony-X is a rapid LAST stack Symfony project development and deployment template for the purpose of creating a minimal viable product in minimal viable time.
 
 Current Status
 ### NOT ready yet
