@@ -12,9 +12,19 @@ Check back soon!
 ## Support [Ryan Weaver](https://github.com/weaverryan)
 Ryan has Glioblastoma (brain cancer - [Go Fund Me](http://gofund.me/f8e28d5f).) He's a fighter, writer for http://SymfonyCasts.com & proud Symfony core member.
 
-When I read SymfonyDocs, it's his voice I hear. Gives me confidence and focus. 
+When I'm reading SymfonyDocs, it's Ryan's voice I hear in my mind. Gives me confidence and focus. 
 
 Ryan, you are in my prayers.  
+
+## About
+
+Symfony-X provides a set of fast, simple, and flexible Symfony 7+ templates for rapid project development using LAST stack.
+
+Symfony-X uses a fast web server (FrankenPHP, built on Caddy).
+
+Symfony-X deployments can be configured (local dev, local production, standalone binary executable, Amazon Web Services).
+
+Symfony-X is focused on Artificial Intelligence progress and direction demands. This includes, but is not limited to: API consumption and production, LangChain-ish PHP, and maybe edge AI in application memory space (via Go).
 
 ## Background
 
@@ -25,18 +35,8 @@ Ryan, you are in my prayers.
 
   return new SymfonyStyle($down, $dirty);
 ```
+
 Symfony-X is about simplicity, performance, and scalability.
-
-## About
-
-Symfony-X provides a set of fast, simple, and flexible Symfony 7+ templates for rapid project development using the latest Symfony design approaches.
-
-Symfony-X uses a fast web server (FrankenPHP), AssetMapper, and Tailwind. No yarn, no npm, and no webpackencore.
-
-Symfony-X deployments can be configured (local dev, local production, standalone binary executable, Amazon Web Services).
-
-Symfony-X is focused on Artificial Intelligence progress and direction demands. This includes, but is not limited to: API consumption and production, LangChain-ish PHP, and maybe edge AI in application memory space (via Go).
-
 
 ## Requirements
 
@@ -63,8 +63,7 @@ Symfony-X is focused on Artificial Intelligence progress and direction demands. 
 
 ## Documentation
 
-   [Click Here](dev/symfony-x/documentation/documents.md). 
-
+   [Click Here](dev/symfony-x/documentation/documents.md) for the Symfony-X documentation.
 
 ## Thoughts on direction
 
