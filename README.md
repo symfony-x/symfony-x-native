@@ -63,48 +63,16 @@ Symfony-X is focused on Artificial Intelligence progress and direction demands. 
 
 ## Documentation
 
-   Documentation can be found [here](docs/documents.md). 
+   [Click Here](dev/symfony-x/documentation/documents.md). 
 
-## Folder Structure
 
-```
-symfony-x/
-├── .vscode/
-├── assets/
-│   └── styles/
-├── bin/
-├── config/
-│   ├── packages/
-│   └── routes/
-├── docs/
-│   └── *
-├── frankenphp/
-│   └── conf.d/
-├── public/
-├── src/
-│   └── Controller/
-├── templates/
-├── tests/
-├── var/
-├── vendor/
-├── .env
-├── compose.override.yaml
-├── compose.prod.yaml
-├── compose.yaml
-├── Dockerfile
-├── importmap.php
-├── Makefile
-├── README.md
-├── symfony-x.code-workspace
-└── symfony.lock
-```
+## Thoughts on direction
 
-## Plans
-
-- **Web App Branch**: A ready to go web app template with dashboard (EasyAdmin).
-- **AWS**: AWS integration. S3, Cognito, DynamoDB, Bedrock. 
+- **Web App Fork**: A ready to go web app template with doctrine, security, dashboard (EasyAdmin)
+- **Docker**:  Docker Compose for dev tools (open-web-ui/ollama/db/n8n/watchtower/etc/) and environment simulation (local / aws / etc).
+- **AWS**: AWS integration (dev and prod). S3, Cognito, DynamoDB, Bedrock. -> automate deployments with Cloud Formation
 - **Go**: Integrating Symfony with Go - maybe more later.
-- **AI**: Integration with various AI. Possible edge LLM embedded in Caddy Server and available to php via bindings with Go functions(??). 
+- **AI**: Integration with various AI. 
 
 
 ## Contributing
