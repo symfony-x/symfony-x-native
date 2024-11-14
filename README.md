@@ -11,7 +11,10 @@ Check back soon!
 
 ## Support [Ryan Weaver](https://github.com/weaverryan)
 Ryan has Glioblastoma (brain cancer - [Go Fund Me](http://gofund.me/f8e28d5f).) He's a fighter, writer for http://SymfonyCasts.com & proud Symfony core member.
-When I read SymfonyDocs, it's his voice I hear. Gives me confidence and clarity. You are in my prayers.  
+
+When I read SymfonyDocs, it's his voice I hear. Gives me confidence and clarity. 
+
+Ryan, you are in my prayers.  
 
 ## Background
 
