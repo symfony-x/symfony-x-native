@@ -5,7 +5,7 @@ Symfony-X is a rapid LAST stack Symfony project development and deployment templ
 Current Status
 ### NOT ready yet
 ETA - a week-ish
-#### As of 14 Nov 2024. 
+#### As of 16 Nov 2024. 
 
 Check back soon!
 
@@ -65,14 +65,19 @@ Symfony-X is about simplicity, performance, and scalability.
 
    [Click Here](dev/symfony-x/documentation/documents.md) for the Symfony-X documentation.
 
+
+## Plans
+
+- **Web App**: Forked from this repo, rapid web app development / deployment.
+- **Redneck Mode**: ALL servers/services/sites/workers/mercure/db/etc in one container. extend your docker image from it to add. The one server wonder!
+- **Docker Compose**: Comprehensive Docker Compose setup for the best Symfony AI Development experience.
+
 ## Thoughts on direction
 
-- **Web App Fork**: A ready to go web app template with doctrine, security, dashboard (EasyAdmin)
 - **Docker**:  Docker Compose for dev tools (open-web-ui/ollama/db/n8n/watchtower/etc/) and environment simulation (local / aws / etc).
 - **AWS**: AWS integration (dev and prod). S3, Cognito, DynamoDB, Bedrock. -> automate deployments with Cloud Formation
 - **Go**: Integrating Symfony with Go - maybe more later.
 - **AI**: Integration with various AI. 
-
 
 ## Contributing
 
