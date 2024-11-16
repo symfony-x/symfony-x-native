@@ -54,8 +54,8 @@ class SymfonyXController extends BaseController
         //return $this->render('symfony-x/complete.html.twig');
     }
 
-    #[Route('/Symfony-X/_dev/default-html', name: 'dev_default_html')]
-    public function devDefaultHtml(): Response
+    #[Route('/Symfony-X/_dev/default-html', name: 'dev_default_html2')]
+    public function devDefaultHtml2(): Response
     {
         return $this->render('symfony-x/dev/wip.html.twig');
     }
