@@ -1,6 +1,6 @@
 # Symfony-X
 
-Symfony-X is a rapid LAST stack Symfony project development and deployment template for the purpose of creating a minimal viable product in minimal viable time.
+Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time.
 
 Current Status
 ### NOT ready yet
@@ -20,13 +20,17 @@ Ryan, you are in my prayers.
 
 Symfony-X provides a set of fast, simple, and flexible Symfony 7+ templates for rapid project development using LAST stack.
 
-Symfony-X uses a fast web server (FrankenPHP, built on Caddy).
+Symfony-X uses [Symfony Docker](https://github.com/dunglas/symfony-docker), [Franken-PHP](https://frankenphp.dev/) (on [Caddy](https://caddyserver.com/)), [Live Components](https://symfony.com/bundles/ux-live-component/current/index.html), [Asset Mapper](https://symfony.com/doc/current/frontend/asset_mapper.html) (NO Node.js, NO Webpack), [Stimulus](https://stimulus.hotwired.dev/), [Turbo](https://turbo.hotwired.dev/), [Tailwind](https://tailwindcss.com/), [Flowbite](https://flowbite.com/) 
 
 Symfony-X deployments can be configured (local dev, local production, standalone binary executable, Amazon Web Services).
 
 Symfony-X is focused on Artificial Intelligence progress and direction demands. This includes, but is not limited to: API consumption and production, LangChain-ish PHP, and maybe edge AI in application memory space (via Go).
 
 ## Background
+
+An idea just barely needs to work before you really start. Start sooner.
+
+#### Why PHP/Symfony?
 
 **PHP** can get **down** and **dirty**. And *sometimes* **...** you have to do it ***symfony style***.
 
