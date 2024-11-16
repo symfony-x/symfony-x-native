@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
@@ -47,13 +48,16 @@ class SymfonyXController extends BaseController
     #[Route('/Symfony-X/_dev/default-html', name: 'dev_default_html')]
     public function devDefaultHtml(): Response
     {
-        return $this->render('symfony-x/complete.html.twig');
+        return new JsonResponse([
+            'message' => 'Use this route to view the current HTML of the template you are working on.',
+        ]);
+        //return $this->render('symfony-x/complete.html.twig');
     }
 
-    #[Route('/Symfony-X/_dev/tailwind/default-html', name: 'dev_tailwind_default_html')]
-    public function devTailwindDefaultHtml(): Response
+    #[Route('/Symfony-X/_dev/default-html', name: 'dev_default_html')]
+    public function devDefaultHtml(): Response
     {
-        return $this->render('symfony-x/tailwind/wip.html.twig');
+        return $this->render('symfony-x/dev/wip.html.twig');
     }
 
 
