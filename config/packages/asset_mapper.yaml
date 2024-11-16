@@ -4,5 +4,5 @@ framework:
         paths:
             - assets/
 
-        excluded_patterns:
-            - "*/assets/styles/app.css"
+#        excluded_patterns:
+#            - "*/assets/styles/app.css"

@@ -18,8 +18,8 @@ GIT           = git
 
 
 # Alias
-#SYMFONY       = $(EXEC_PHP) bin/console
-SYMFONY       = docker-compose exec my_php_container $(EXEC_PHP) bin/console
+SYMFONY       = $(EXEC_PHP) bin/console
+#SYMFONY       = docker-compose exec my_php_container $(EXEC_PHP) bin/console
 # if you use Docker you can replace with: "docker-compose exec my_php_container $(EXEC_PHP) bin/console"
 
 # Executables: vendors
