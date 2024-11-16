@@ -50,4 +50,11 @@ class SymfonyXController extends BaseController
         return $this->render('symfony-x/complete.html.twig');
     }
 
+    #[Route('/Symfony-X/_dev/tailwind/default-html', name: 'dev_tailwind_default_html')]
+    public function devTailwindDefaultHtml(): Response
+    {
+        return $this->render('symfony-x/tailwind/wip.html.twig');
+    }
+
+
 }

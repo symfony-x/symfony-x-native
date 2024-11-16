@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Dark Themed Website</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Flowbite CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-900 text-white">
+  <!-- Navbar -->
+  <nav class="bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo or Site Name -->
+        <a href="#" class="text-white font-bold text-xl">My Website</a>
+        <!-- Hamburger Menu Button (Mobile) -->
+        <div class="flex md:hidden">
+          <button id="navbar-toggle" type="button" class="text-gray-300 hover:text-white focus:outline-none focus:text-white" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <!-- Icon when menu is closed -->
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+            </svg>
+          </button>
+        </div>
+        <!-- Navigation Links (Desktop) -->
+        <div class="hidden md:flex space-x-4">
+          <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Welcome</a>
+          <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+          <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Support</a>
+          <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Download</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="#" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium">Welcome</a>
+        <a href="#" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium">About</a>
+        <a href="#" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium">Support</a>
+        <a href="#" class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium">Download</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="mt-10 mx-auto max-w-7xl px-4">
+    <h1 class="text-3xl font-bold">Welcome to My Website</h1>
+    <p class="mt-4">This is a simple dark-themed template using Tailwind CSS and Flowbite components, now fully responsive for mobile devices.</p>
+  </main>
+
+  <!-- Flowbite JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+
+  <!-- Custom JS for Mobile Menu Toggle -->
+  <script>
+    const toggleButton = document.getElementById('navbar-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    toggleButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
