@@ -63,7 +63,13 @@ Symfony-X deployments can be configured (local dev, local production, standalone
 
 ## AI
 
-Symfony-X is focused on Artificial Intelligence progress and direction demands. This includes, but is not limited to: API consumption and production, LangChain-ish PHP, and maybe edge AI in application memory space (via Go).
+Data is paramount.
+
+The more project development data you can log, scrub, and synthesize; the more insights you can gain from it using AI.
+
+For example, create a temp local git branch and make available (via RAG Agent) to developer API or local LLM. Autocomit on save, and track all changes with references to your chat history (via comments in code examples with GUID or something). Pull only the final changes and save the temp brach history for future use. You can use machine learning on it for insights or to improve. 
+
+My point is that we should all be trying to capture as much data about the development process as possible. 
 
 ## Background
 
