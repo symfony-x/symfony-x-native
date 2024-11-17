@@ -29,11 +29,11 @@ I've seen the limitations of LLMs when used for development with Symfony...
 
 - **Too many options**: Symfony is highly configurable. LLMs may respond with a suggestion that is odd, or worse, a hallucination. 
 
-- **Too many versions**: Symfony has been around for a while. It has evolved over the years. Unfortunately, this means outdated and conflicting information used to train LLMs, so they get things confused and use outdated methods in unpredicable ways. In general, they hallucinate more often and more subtly. 
+- **Too many versions**: Symfony has been around for a while. It has evolved over the years. Unfortunately, this means outdated and conflicting information is used to train LLMs, so they get things confused (features vs versions) and use outdated techniques ( i.e. - using annotations instead of attributes) in unpredicable ways. It also means that info on the latest Symfony version is drowned out by previous versions when training the LLM. In general, models will hallucinate more often, and in more subtle ways. 
 
-- **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago. Some of the stack is pretty new and evolving fast. Combine this with outdated info, and you're in No Man's Land.
+- **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago: The Cutoff Date! Some of the stack is relatively new and evolving fast. Combine this with too many Symfony versions, and you're in No Man's Land. RAG and search can help, but need to be tailored for the project.
 
-I think I know how to fix a lot of this for Symfony developers. I'm going to write a web app to handle your project for RAG (RAG Graph) within your APIs - crafting every interaction with knowledge of your code and tailored for Symfony-X stack.
+I think I know how to improve some of this. I'm going to write an app to handle your project for RAG (RAG Graph) within your APIs - crafting every interaction with knowledge of your code and tailored for Symfony-X stack. 
 
 I'm also going to write some agentic systems to automate various tasks vital to rapid development (code creation, updates, docs, tests, configuration). These areas of improvement offer maximum utility for minimal cost. LLMs are good at things that are simple and explainable, especially when provided great context (RAG).
 
