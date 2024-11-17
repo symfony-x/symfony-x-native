@@ -5,7 +5,7 @@ Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-sta
 Current Status
 ### NOT ready yet
 ETA - a week-ish
-#### As of 16 Nov 2024. 
+#### As of 18 Nov 2024. 
 
 Check back soon!
 
@@ -18,17 +18,31 @@ Ryan, you are in my prayers.
 
 ## About
 
-Symfony-X provides a set of fast, simple, and flexible Symfony 7+ templates for rapid project development using LAST stack.
+The goal is to streamline the creation of a complete software project development and management environment. 
+
+#### Abstracted Projects
+
+Plans are for two projects:
+
+- **Symfony-X** Super Simple Basic Website
+- **Symfony-XXX** Forked from Symfony-X, a complete web app development and project environment.
+
+
+## Stack
 
 Symfony-X uses [Symfony Docker](https://github.com/dunglas/symfony-docker), [Franken-PHP](https://frankenphp.dev/) (on [Caddy](https://caddyserver.com/)), [Live Components](https://symfony.com/bundles/ux-live-component/current/index.html), [Asset Mapper](https://symfony.com/doc/current/frontend/asset_mapper.html) (NO Node.js, NO Webpack), [Stimulus](https://stimulus.hotwired.dev/), [Turbo](https://turbo.hotwired.dev/), [Tailwind](https://tailwindcss.com/), [Flowbite](https://flowbite.com/) 
 
+## Deployments
+
 Symfony-X deployments can be configured (local dev, local production, standalone binary executable, Amazon Web Services).
+
+## AI
 
 Symfony-X is focused on Artificial Intelligence progress and direction demands. This includes, but is not limited to: API consumption and production, LangChain-ish PHP, and maybe edge AI in application memory space (via Go).
 
 ## Background
 
-An idea just barely needs to work before you really start. Start sooner.
+An idea just barely needs to work before you really get started. Start sooner.
 
 #### Why PHP/Symfony?
 
