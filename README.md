@@ -33,9 +33,16 @@ I've seen the limitations of LLMs when used for development with Symfony...
 
 - **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago. Some of the stack is pretty new and evolving fast. Combine this with outdated info, and you're in No Man's Land.
 
-I think I know how to fix a lot of this for Symfony developers. I'm going to write a web-app just to handle your project for RAG (RAG Graph) into your APIs. I'm also going to write some agentic systems to automate various tasks vital to rapid development (code creation, updates, docs, tests, configuration). These areas of improvement offer maximum utility for minimal cost. LLMs are good at things that are simple and explainable; especially when provided great context (RAG).
+I think I know how to fix a lot of this for Symfony developers. I'm going to write a web app to handle your project for RAG (RAG Graph) within your APIs - crafting every interaction with knowledge of your code and tailored for Symfony-X stack.
 
-Then i'm going use to use Docker Compose to create a ready-to-go integrated development environment with all the services preconfigured for the Symfony-X system. Use your imagination: Ollama, Open Web UI, n8n, Gitea, AWS Dev Images, vector db, etc....
+I'm also going to write some agentic systems to automate various tasks vital to rapid development (code creation, updates, docs, tests, configuration). These areas of improvement offer maximum utility for minimal cost. LLMs are good at things that are simple and explainable, especially when provided great context (RAG).
+
+Then I'm going to use Docker Compose to create a ready-to-go integrated development environment with all the services preconfigured for the Symfony-X system (db, git, dev tools like phpMyAdmin, etc.).
+
+Use your imagination: Ollama, Open Web UI, MongoDB, n8n, Gitea, Local AWS Dev (DynamoDB, S3, Cognito, ElasticSearch, etc.).
+
+While that's all nice, I'm lazier still... it HAS to be ridiculously easy to get a minimal viable product into production. I want to be able to describe what I want and then have the system interactively interrogate me as the product begins to take shape (like diffusion). The goal is up and running ASAP. I'll set up a speed run leaderboard. So, there should be some simple workflows to help guide development. Combined with Symfony-X agents, should be able to automate A LOT. 
+
 
 #### Abstracted Projects
 
