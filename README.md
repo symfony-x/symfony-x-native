@@ -19,15 +19,15 @@ Ryan, you are in my prayers.
 
 ## About
 
-The goal is to streamline the creation of a complete Symfony software project development and management environment. 
+The goal is to streamline the creation of a rapid Symfony software project development environment. 
 
 Symfony allows for fast development when done right. The problem, in my view, is setting up a modern Symfony development environment.
 
 We live in the age of docker. The age of AI. 
 
-I've seen the limitations of LLMs when used for development with Symfony...
+I've seen the limitations of Large Language Models (LLMs) when used to assist with Symfony development...
 
-- **Too many options**: Symfony is highly configurable. LLMs may respond with a suggestion that is odd, or worse, a hallucination. 
+- **Too many options**: Symfony is highly configurable. Without knowing the desired configuration setup, and with so many choices, the model may respond with a suggestion that is odd, or worse, a hallucination (getting choices confused). 
 
 - **Too many versions**: Symfony has been around for a while. It has evolved over the years. Unfortunately, this means outdated and conflicting information is used to train LLMs, so they get things confused (features vs versions) and use outdated techniques ( i.e. - using annotations instead of attributes) in unpredicable ways. It also means that info on the latest Symfony version is drowned out by previous versions when training the LLM. In general, models will hallucinate more often, and in more subtle ways. 
 
