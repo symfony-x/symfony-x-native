@@ -29,9 +29,9 @@ I've seen the limitations of LLMs when used for development with Symfony...
 
 - **Too many options**: Symfony is highly configurable. LLMs may respond with a suggestion that is odd, or worse, a hallucination. 
 
-- **Too many versions**: Symfony has been around for a while. It has evolved over the years. Unfortunately, this means outdated and conflicting information used to train LLMs, so get things confused and use outdated methods in unpredicable ways. In general, they hallucinate more often and more subtly. 
+- **Too many versions**: Symfony has been around for a while. It has evolved over the years. Unfortunately, this means outdated and conflicting information used to train LLMs, so they get things confused and use outdated methods in unpredicable ways. In general, they hallucinate more often and more subtly. 
 
-- **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago. Some of the stack is pretty new and evolving fast. Combine this with outdated info, and you're in no-mans-land.
+- **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago. Some of the stack is pretty new and evolving fast. Combine this with outdated info, and you're in No Man's Land.
 
 I think I know how to fix a lot of this for Symfony developers. I'm going to write a web-app just to handle your project for RAG (RAG Graph) into your APIs. I'm also going to write some agentic systems to automate various tasks vital to rapid development (code creation, updates, docs, tests, configuration). These areas of improvement offer maximum utility for minimal cost. LLMs are good at things that are simple and explainable; especially when provided great context (RAG).
 
