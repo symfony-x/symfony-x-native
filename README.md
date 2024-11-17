@@ -41,15 +41,16 @@ Then I'm going to use Docker Compose to create a ready-to-go integrated developm
 
 Use your imagination: Ollama, Open Web UI, MongoDB, n8n, Gitea, Local AWS Dev (DynamoDB, S3, Cognito, ElasticSearch, etc.).
 
-While that's all nice, I'm lazier still... it HAS to be ridiculously easy to get a minimal viable product into production. I want to be able to describe what I want and then have the system interactively interrogate me as the product begins to take shape (like diffusion). The goal is up and running ASAP. I'll set up a speed run leaderboard. So, there should be some simple workflows to help guide development. Combined with Symfony-X agents, should be able to automate A LOT. 
+While that's all nice, I'm lazier still... it HAS to be ridiculously easy to get a minimal viable product into production. I want to be able to describe what I want and then have the system interactively interrogate me as the product begins to take shape (like diffusion). The goal is up and running ASAP. I'll set up a speed run leaderboard. So there should be some basic example [workflows](https://symfony.com/doc/current/components/workflow.html) to help guide development. Combined with [AI](https://github.com/theodo-group/LLPhant), this should be able to automate A LOT. 
 
 
-#### Abstracted Projects
+## Symfony-X and Symfony-XXX
 
-Plans are for two projects:
+Plans are for three github repos:
 
-- **Symfony-X** Super Simple Basic Website
-- **Symfony-XXX** Forked from Symfony-X, a complete web app development and project environment.
+- **Symfony-X** Super Simple Basic Web App, a simple template containing basic Symfony Web App and development features such as Dockerfile and production deployments. 
+- **Symfony-X2** Forked from Symfony-X, adds the development and project environment (Database, Docker Compose, AI). Useful for creating micro-services.
+- **Symfony-XXX** Forked from Symfony-X2, adds advanced web app features such as Users, Dashboards, API libraries, OAuth, DevOps, .
 
 
 ## Stack
