@@ -3,13 +3,14 @@
 Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time.
 
 Current Status
-### NOT ready yet
+## NOT ready yet
 ETA - a week-ish
 #### As of 18 Nov 2024. 
 
 Check back soon!
 
 ## Support [Ryan Weaver](https://github.com/weaverryan)
+
 Ryan has Glioblastoma (brain cancer - [Go Fund Me](http://gofund.me/f8e28d5f).) He's a fighter, writer for http://SymfonyCasts.com & proud Symfony core member.
 
 When I'm reading SymfonyDocs, it's Ryan's voice I hear in my mind. Gives me confidence and focus. 
@@ -18,7 +19,23 @@ Ryan, you are in my prayers.
 
 ## About
 
-The goal is to streamline the creation of a complete software project development and management environment. 
+The goal is to streamline the creation of a complete Symfony software project development and management environment. 
+
+Symfony allows for fast development when done right. The problem, in my view, is setting up a modern Symfony development environment.
+
+We live in the age of docker. The age of AI. 
+
+I've seen the limitations of LLMs when used for development with Symfony...
+
+- **Too many options**: Symfony is highly configurable. LLMs may respond with a suggestion that is odd, or worse, a hallucination. 
+
+- **Too many versions**: Symfony has been around for a while. It has evolved over the years. Unfortunately, this means outdated and conflicting information used to train LLMs, so get things confused and use outdated methods in unpredicable ways. In general, they hallucinate more often and more subtly. 
+
+- **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago. Some of the stack is pretty new and evolving fast. Combine this with outdated info, and you're in no-mans-land.
+
+I think I know how to fix a lot of this for Symfony developers. I'm going to write a web-app just to handle your project for RAG (RAG Graph) into your APIs. I'm also going to write some agentic systems to automate various tasks vital to rapid development (code creation, updates, docs, tests, configuration). These areas of improvement offer maximum utility for minimal cost. LLMs are good at things that are simple and explainable; especially when provided great context (RAG).
+
+Then i'm going use to use Docker Compose to create a ready-to-go integrated development environment with all the services preconfigured for the Symfony-X system. Use your imagination: Ollama, Open Web UI, n8n, Gitea, AWS Dev Images, vector db, etc....
 
 #### Abstracted Projects
 
