@@ -8,9 +8,8 @@
 /var/
 /vendor/
 
-
 # Ignore all contents within dev/local/
-/dev/local/**
+dev/local/**
 
 # Do not ignore the dev/local/ directory itself
 !/dev/local/
@@ -19,11 +18,10 @@
 !/dev/local/tmp/
 
 # Ignore all contents within dev/local/tmp/
-/dev/local/tmp/**
+dev/local/tmp/**
 
 # Do not ignore the specific file dev/local/readme.md
 !/dev/local/readme.md
-
 ###< symfony/framework-bundle ###
 
 ###> symfony/asset-mapper ###
