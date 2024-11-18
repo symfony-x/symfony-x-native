@@ -7,7 +7,14 @@
 /public/bundles/
 /var/
 /vendor/
-/dev/local/
+# Ignore all files and directories within dev/local/
+dev/local/*
+
+# Do not ignore the dev/local/tmp/ directory and its contents
+!dev/local/tmp/
+
+# Do not ignore the dev/local/readme.md file
+!dev/local/readme.md
 ###< symfony/framework-bundle ###
 
 ###> symfony/asset-mapper ###
