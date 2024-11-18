@@ -27,15 +27,15 @@ We live in the age of docker. The age of AI.
 
 I've seen the limitations of Large Language Models (LLMs) when used to assist with Symfony development...
 
-- **Too many options**: Symfony is highly configurable, almost to a fault. Without the model knowing the desired configuration setup of YOUR project, and with so many implemention options to choose from, the model may respond with a suggestion that is sub-optimal, creates new conflicts, or worse, is a hallucination (confusing techniques from different implementation options - i.e. confusing Asset with AssetMapper). 
+- **Too many options**: Symfony is highly configurable, almost to a fault. Without the model understanding the specific configuration setup of your project, and with so many implementation options available, responses may be sub-optimal, create new conflicts, or worse—hallucinate (e.g., confusing techniques from different implementation options like mixing up Asset with AssetMapper) 
 
-- **Too many versions**: Symfony has been around for a while. It has evolved over the years. Unfortunately, this means outdated and conflicting information is used to train LLMs, so they get things confused (features vs versions) and use outdated techniques ( i.e. - using annotations instead of attributes) in unpredicable ways. It also means that info on the latest Symfony version is drowned out by previous versions when training the LLM. In general, models will hallucinate more often, and in more subtle ways. 
+- **Too many versions**: Symfony has been around for a long time and has evolved significantly. Unfortunately, this means outdated and conflicting information is often used to train LLMs, leading to confusion (e.g., mixing up features across versions) and outdated techniques (e.g., using annotations instead of attributes) being suggested in unpredictable ways. Additionally, information on the latest Symfony version can be overshadowed by prior versions when training LLMs, leading to subtle hallucinations. 
 
-- **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago: The Cutoff Date! Some of the stack is relatively new and evolving fast. Combine this with too many Symfony versions, and you're in No Man's Land. RAG and search can help, but need to be tailored for the project. Fine tuning models on information specific to your project's current configuration (versions: php, symfony, packages, libraries, api, cli, etc.) combined with RAG-Graph seems like the right direction. 
+- **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago: The Cutoff Date!  Some parts of the stack are relatively new and evolve rapidly. Combined with the sheer number of prior Symfony versions over-represented in the model's training; you're in No Man's Land. While Retrieval-Augmented Generation (RAG) and AI Search can help, they need to be tailored for your specific project. Fine-tuning models with current, stack-specific information (versions of PHP, Symfony, packages, libraries, API, CLI, etc.) combined with RAG-Graph seems like the right direction. 
 
-Check out this [video](https://www.youtube.com/watch?v=5YZ8mMyHJHg) to understand some of the challenges of applying AI. 
+Check out this [video](https://www.youtube.com/watch?v=5YZ8mMyHJHg) to understand some challenges in applying AI effectively. 
 
-I have some ideas to help. A web app to handle RAG with your projects codebase. Use with your API calls - crafting every interaction with knowledge of your code and tailored for Symfony-X stack.
+I have some ideas to help. A web app to handle RAG with your project's codebase. Use with your API calls - crafting every interaction with knowledge of your code and tailored for Symfony-X stack.
 
 I'm also going to write some agentic systems to automate various tasks vital to rapid development (code creation, updates, docs, tests, configuration). These areas of improvement offer maximum utility for minimal cost. LLMs are good at things that are simple and explainable, especially when provided great context (RAG).
 
@@ -46,7 +46,7 @@ Use your imagination: Ollama, Open Web UI, MongoDB, n8n, Gitea, Local AWS Dev (D
 While that's all nice, I'm lazier still... it HAS to be ridiculously easy to get a minimal viable product into production. I want to be able to describe what I want and then have the system interactively interrogate me as the product begins to take shape (like diffusion). The goal is up and running ASAP. I'll set up a speed run leaderboard. So there should be some basic example [workflows](https://symfony.com/doc/current/components/workflow.html) to help guide development. Combined with [AI](https://github.com/theodo-group/LLPhant), this should be able to automate A LOT. 
 
 
-## Symfony-X and Symfony-XXX
+## Symfony-X, Symfony-X2, and Symfony-XXX
 
 Plans are for three github repos:
 
@@ -55,8 +55,6 @@ Plans are for three github repos:
 - **Symfony-XXX** Forked from Symfony-X2, adds advanced web app features such as Users, OAuth, Dashboards, API libraries, DevOps.
 
 Ultimately these will probably just be dev repos. I'd like to have a Symfony new project skeleton, maybe a bundle (with composer package) for even easier integration and versioning.
-
-
 
 ## Stack
 
