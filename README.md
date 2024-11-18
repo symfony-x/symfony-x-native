@@ -17,6 +17,30 @@ When I'm reading SymfonyDocs, it's Ryan's voice I hear in my mind. Gives me conf
 
 Ryan, you are in my prayers.  
 
+## Requirements
+
+- **Git**: You got to git it to get it. 
+- **Docker & Docker Compose**: Containerized environments.
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://https://github.com/xormania/symfony-x.git your-project-name
+   cd your-project-name
+   ```
+
+4. **Build and Start Docker Containers**
+
+   ```bash
+   docker-compose up -d
+   ```
+
+## Documentation
+
+   [Click Here](dev/symfony-x/documentation/documents.md) for the Symfony-X documentation.
+
 ## About
 
 The goal is to streamline the creation of a rapid Symfony software project development environment. 
@@ -54,11 +78,22 @@ Plans are for three github repos:
 - **Symfony-X2** Forked from Symfony-X, adds the development and project environment (Database, Docker Compose, AI). Useful for creating micro-services.
 - **Symfony-XXX** Forked from Symfony-X2, adds advanced web app features such as Users, OAuth, Dashboards, API libraries, DevOps.
 
-Ultimately these will probably just be dev repos. I'd like to have a Symfony new project skeleton, maybe a bundle (with composer package) for even easier integration and versioning.
+Choose which to use based on your needs.
+
+Ultimately these will probably be dev repos. I'd like to have a Symfony new project skeleton, maybe a bundle (with composer package) for even easier integration and versioning. Will look into.
 
 ## Stack
 
-Symfony-X uses [Symfony Docker](https://github.com/dunglas/symfony-docker), [Franken-PHP](https://frankenphp.dev/) (on [Caddy](https://caddyserver.com/)), [Live Components](https://symfony.com/bundles/ux-live-component/current/index.html), [Asset Mapper](https://symfony.com/doc/current/frontend/asset_mapper.html) (NO Node.js, NO Webpack), [Stimulus](https://stimulus.hotwired.dev/), [Turbo](https://turbo.hotwired.dev/), [Tailwind](https://tailwindcss.com/), [Flowbite](https://flowbite.com/) 
+Symfony-X uses...
+
+- [Symfony Docker](https://github.com/dunglas/symfony-docker)
+- [Franken-PHP](https://frankenphp.dev/) (on [Caddy](https://caddyserver.com/))
+- [Live Components](https://symfony.com/bundles/ux-live-component/current/index.html)
+- [Asset Mapper](https://symfony.com/doc/current/frontend/asset_mapper.html) (NO Node.js, NO Webpack)
+- [Stimulus](https://stimulus.hotwired.dev/)
+- [Turbo](https://turbo.hotwired.dev/)
+- [Tailwind](https://tailwindcss.com/)
+- [Flowbite](https://flowbite.com/) 
 
 ## Deployments
 
@@ -89,33 +124,6 @@ An idea just barely needs to work before you really get started. Start sooner.
 ```
 
 Symfony-X is about simplicity, performance, and scalability.
-
-## Requirements
-
-- **Git**: You got to git it to get it. 
-- **Docker & Docker Compose**: Containerized environments.
-
-## Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://https://github.com/xormania/symfony-x.git your-project-name
-   cd your-project-name
-   ```
-
-4. **Build and Start Docker Containers**
-
-   Make sure to use `compose.override.yaml` for Development Docker configuration.
-   Make sure to use `compose.prod.yaml` for Production Docker configuration.
-
-   ```bash
-   docker-compose up -d
-   ```
-
-## Documentation
-
-   [Click Here](dev/symfony-x/documentation/documents.md) for the Symfony-X documentation.
 
 
 ## Plans
